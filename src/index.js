@@ -4,6 +4,6 @@ import ReactDOM from 'react-dom';
 import App from './components/App';
 
 ReactDom.hydrate(
-    <App />
+    <App />,
     document.getElementById('mountNode'),
 );
